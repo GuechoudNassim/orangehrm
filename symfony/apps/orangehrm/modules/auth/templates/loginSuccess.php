@@ -53,7 +53,7 @@ $loginImage = sfConfig::get('sf_web_dir') . DIRECTORY_SEPARATOR . sfConfig::get(
                                     </button>
                                 </div>
                                 <div class="mt-4 mb-3 text-center">
-                                    <?php echo __('vous n\'avez pas de compte ?'); ?> <a href="register.html"><?php echo __('Contactez-nous'); ?></a>
+                                    <?php echo __('vous n\'avez pas de compte ?'); ?> <a href="#"><?php echo __('Contactez-nous'); ?></a>
                                 </div>
                             </form>
                         </div>
