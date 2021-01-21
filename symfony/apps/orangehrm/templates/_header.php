@@ -18,7 +18,8 @@ $cultureElements = explode('_', $sf_user->getCulture());
         <link href="<?php echo theme_path('css/tipTip.css')?>" rel="stylesheet" type="text/css"/>
         <link href="<?php echo theme_path('css/jquery/jquery-ui-1.8.21.custom.css')?>" rel="stylesheet" type="text/css"/>
         <link href="<?php echo theme_path('css/jquery/jquery.autocomplete.css')?>" rel="stylesheet" type="text/css"/>
-        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
         <!-- Custom CSS files -->
         <link href="<?php echo theme_path('css/main.css')?>" rel="stylesheet" type="text/css"/>
         
@@ -57,6 +58,8 @@ $cultureElements = explode('_', $sf_user->getCulture());
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->        
 
+        <![endif]-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
